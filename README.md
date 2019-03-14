@@ -10,14 +10,13 @@ fabsTeX texfile -output dir
 ```
 
 ## Installation
-Just clone the repo in your local machine:
+Assuming you have a working installation of:
+* [plastex](https://github.com/kodyvajjha/plastex.git) 
+* [gerby-website](https://github.com/gerby-project/gerby-website.git)
+
+Just clone the repo in your local machine: 
 ```shell
 https://github.com/lab156/fabsTeX.git
-```
-Initialize and update the submodules:
-```shell
-git submodule init
-git submodule update
 ```
 
 
