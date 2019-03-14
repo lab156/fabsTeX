@@ -19,4 +19,6 @@ Just clone the repo in your local machine:
 https://github.com/lab156/fabsTeX.git
 ```
 
-
+## TODO
+* add tikz-cd support.
+* think
