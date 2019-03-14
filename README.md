@@ -6,7 +6,7 @@ Given a tex file fabsTeX creates a flask app in the flavor of the stacks project
 ## Usage:
 To use fabsTeX simply run on the commandline
 ```shell
-fabsTeX texfile -output dir
+$fabsTeX texfile -output dir
 ```
 
 ## Installation
