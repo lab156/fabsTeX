@@ -43,7 +43,7 @@ At this point, we should have a `tex` document which is user supplied.
 8. Inside the directory `.../gerby-website/gerby/tools/`, make the following softlinks:
     - `ln -s ../../../stacks.paux stacks.paux`
     - `ln -s ../../../stacks stacks`
-    - `ln -s ../../../stacks.tags stacks.tags
+    - `ln -s ../../../stacks.tags stacks.tags`
 9. Run `python update.py`.
 10. Go back to the `.../gerby-website` and run `export FLASK_APP=gerby` and `flask run`. 
 
