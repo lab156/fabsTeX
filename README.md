@@ -26,6 +26,9 @@ At this point, we should have a `tex` document which is user supplied.
 1. Comment out all imports of `tikz-cd`,`tikz` and `epstopdf`. 
 2. (Optional but strongly recommended!) In the TeX file, add a `\label` to every section, subsection, definition, theorem, lemma, proposition, items of an `enumerate` list or a `itemize` list. The names of these `\label`s should follow the following convention (here `n` is a counter):
     - Theorem -> `\label{thm-n}` 
+    - Section -> `\label{sec-n}`
+    - Subsection -> `\label{subsec-n}`
+    - Subsubsection -> `\label{subsubsec-n}`
     - Proposition -> `\label{prop-n}`
     - Lemma -> `\label{lem-n}`
     - Items of an `enumerate` -> `\label{enum-item-n}`
