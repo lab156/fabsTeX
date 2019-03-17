@@ -1,0 +1,53 @@
+\documentclass[12pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+
+\def\op#1{\text{#1}}
+\def\ring#1{{\Bbb #1}}
+\def\VR{V_{\ring{R}}}
+\def\Gm{\ring{G}_m}
+\def\Ga{\ring{G}_a}
+\def\Alt{\op{Alt}}
+\def\XX#1{{\tt (#1)}}
+
+
+\title{List of Finite Simple Groups}
+
+%\date{November, 2018}                                           % Activate to display a given date or no date
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{example}{Example}
+\newtheorem{definition}{Definition}
+
+\begin{document}
+  
+\maketitle
+
+\lhead{Statement of the Classification Theorem of Finite Simple Groups}
+\rhead{}
+
+\parskip=\baselineskip
+\input{fsg-input}
+
+%\input{ref}
+\bibliography{refs} 
+%\bibliographystyle{plainnat}
+\bibliographystyle{plain}      
+
+
+\end{document}  
