@@ -26,6 +26,9 @@ At this point, we should have a `tex` document which is user supplied.
 1. Comment out all imports of `tikz-cd`,`tikz` and `epstopdf`. 
 2. (Optional but strongly recommended!) In the TeX file, add a `\label` to every section, subsection, definition, theorem, lemma, proposition, items of an `enumerate` list or a `itemize` list. The names of these `\label`s should follow the following convention (here `n` is a counter):
     - Theorem -> `\label{thm-n}` 
+    - Section -> `\label{sec-n}`
+    - Subsection -> `\label{subsec-n}`
+    - Subsubsection -> `\label{subsubsec-n}`
     - Proposition -> `\label{prop-n}`
     - Lemma -> `\label{lem-n}`
     - Items of an `enumerate` -> `\label{enum-item-n}`
@@ -43,7 +46,7 @@ At this point, we should have a `tex` document which is user supplied.
 8. Inside the directory `.../gerby-website/gerby/tools/`, make the following softlinks:
     - `ln -s ../../../stacks.paux stacks.paux`
     - `ln -s ../../../stacks stacks`
-    - `ln -s ../../../stacks.tags stacks.tags
+    - `ln -s ../../../stacks.tags stacks.tags`
 9. Run `python update.py`.
 10. Go back to the `.../gerby-website` and run `export FLASK_APP=gerby` and `flask run`. 
 
