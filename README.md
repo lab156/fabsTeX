@@ -13,6 +13,7 @@ $fabsTeX texfile -output dir
 Assuming you have a working installation of:
 * [plastex](https://github.com/kodyvajjha/plastex.git) 
 * [gerby-website](https://github.com/gerby-project/gerby-website.git)
+* pybtex
 
 Just clone the repo in your local machine: 
 ```shell
