@@ -19,8 +19,10 @@ Just clone the repo in your local machine:
 ```shell
 https://github.com/lab156/fabsTeX.git
 ```
-## Outline of the general algorithm:
-At this point, we should have a `tex` document which is user supplied. 
+
+## Outline:
+The shell script [tex/fabsTeX.sh](https://github.com/lab156/fabsTeX/blob/master/tex/fabsTeX.sh) does the following:
+(Assuming we have a `tex` document which is user-supplied.)
 
 ### Processing of the TeX file:
 
